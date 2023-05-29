@@ -21,7 +21,7 @@ module.exports = {
     timeout: 600000,
   },
   etherscan: {
-    apiKey: 'DNA9SY4V263N1B47DACEFTSPPQ6FQVNMEB',
+    apiKey: `${process.env.ETHERSCAN_API_KEY}`,
   },
   solidity: {
     compilers: [
